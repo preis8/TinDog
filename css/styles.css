@@ -1,0 +1,227 @@
+.title {
+  background-color: #ff4c68;
+  color: white;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.container-fluid-navbar {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-top: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* Donwload Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  position: relative;
+  z-index: 2;
+}
+
+/* Title Image */
+
+.iphone-div {
+  /* como tenho a imagem absolute e quero alinhar a direita, tenho de ter um
+  container parent tbm posicionado. */
+  position: relative;
+}
+
+.iphone-mockup {
+  width: 420px;
+  transform: rotate(20deg);
+  padding-left: 25px;
+  position: absolute;
+}
+
+/* Features Section */
+
+.features {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+.features-icon {
+  /* font-awesome icons can be sized using font-size */
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #ef8172;
+  transition: .25s;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+  transform: scale(1.15);
+}
+
+.feature-box {
+  padding: 40px;
+}
+
+.features h3 {
+  /* selects all h3 elements that are inside elements with class features */
+  font-family: "Montserrat";
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+
+.features p {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+.testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  height: 350px;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonials-carousel-item {
+  padding: 5% 15%;
+  transition: 1.25s ease;
+}
+
+.testimonial-image {
+  width: 10%;
+  min-width: 85px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+.press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  max-width: 200px;
+  min-width: 70px;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.pricing {
+  padding: 50px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-body button {
+  transition: .3s;
+}
+
+.card-body button:hover {
+  transform: scale(1.05)
+}
+
+@media (max-width: 991px) {
+
+  .iphone-mockup {
+    position: relative;
+    transform: rotate(0);
+    padding-left: 0;
+    padding-right: 70px;
+    height: 650px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
+
+.cta h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 70px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.cta button {
+  margin: 15px;
+}
+
+.footer {
+  background: #fff;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+
+}
+
+.footer i {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.footer p {
+    color: grey;
+    size: 1.6rem;
+}
